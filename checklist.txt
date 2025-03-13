@@ -1,0 +1,69 @@
+PROBLEMS:
+
+create:
+create_colleges.php - 
+create_departments.php - 
+create_programs.php - the department should be unchoosable until you have chosen a college and you should find when chosen a college I want that the department to be sorted out
+create_students.php - 
+
+read:
+read_colleges.php
+read_departments.php
+X read_programs.php
+read_students.php
+
+update:
+update_colleges.php
+update_departments.php
+X update_programs.php
+update_students.php
+
+delete:
+delete_colleges.php
+delete_departments.php
+X delete_programs.php
+delete_students.php
+
+
+
+
+PROBLEMS:
+
+create:
+   create_colleges.php - needs to create and save data in the database
+   create_departments.php - needs to create and save data in the database
+   create_programs.php - needs to create and save data in the database
+   create_students.php - selecting a college needs to be selected first before selecting a program and program needs to be sorted out depending on the program selected
+
+read:
+X   read_colleges.php
+   read_departments.php - need to fix because data is duplicated data
+   read_programs.php - need to fix because data is duplicated data
+X   read_students.php - dont say null
+
+update:
+   update_colleges.php - needs to be able to update data and go back to the read_colleges after
+   update_departments.php - needs to be able to update data and go back to the read_departments after
+   update_programs.php - needs to stick with the current department the data had while being updated
+   update_students.php - when being updated it needs to stay with the college it was set and selecting a college needs to be selected first before selecting a program and program needs to be sorted out depending on the program selected
+
+delete:
+X   delete_colleges.php
+   delete_departments.php - needs to be able to delete data in the database
+X   delete_programs.php
+X   delete_students.php
+
+OTHER PROBLEMS:
+   - 
+   - 
+   - 
+   - 
+   - 
+
+
+   add this in programs because I was testing the delete of programs:
+   1000	Bachelor Science of Coding	BSCC	SAS	Department of Social Sciences and Philiosophy
+   
+
+   add this to departments:
+   1001	Accountancy and Finance Department		SBMM
