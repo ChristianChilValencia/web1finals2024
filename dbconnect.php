@@ -10,8 +10,9 @@
         echo "Connected to the database successfully!<br>";
 
         // Create a sample table
-        $pdo->exec("CREATE TABLE IF NOT EXISTS users (id INT AUTO INCREMENT PRIMARY KEY, name VARCHAR(255))")
+        $pdo->exec("CREATE TABLE IF NOT EXISTS users (id INT AUTO INCREMENT PRIMARY KEY, name VARCHAR(255))");
         echo "Created the users table...";
+        return $pdo;
     } catch(PDOException $error) {
-        echo "Database connection failed: "
+        echo "Database connection failed: " . $e->getMessage();
     }
